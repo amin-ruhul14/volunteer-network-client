@@ -1,0 +1,28 @@
+.register {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.register .create-account-form {
+    max-width: 570px;
+    margin: auto;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+}
+
+.register .register-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.register .form-control {
+    padding-left: 0;
+    margin: 35px 0;
+    border: none;
+    border-bottom: 1px solid #C5C5C5;
+}
+
+.register .btn-register {
+    background: #3F90FC;
+    color: #FFF;
+    padding: 14px 0;
+}

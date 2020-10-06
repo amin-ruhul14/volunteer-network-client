@@ -1,0 +1,35 @@
+.login {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login .google-login {
+    max-width: 570px;
+    margin: auto;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+}
+
+.login .login-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.login .icon {
+    float: left;
+    width: 30px;
+}
+
+.login .login-text,
+.login .create-account-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.login .btn {
+    color: #000000!important;
+    font-weight: 500!important;
+    background: #FFFFFF!important;
+    border: 1px solid #C7C7C7!important;
+    box-sizing: border-box!important;
+    border-radius: 57px!important;
+}

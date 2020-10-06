@@ -1,0 +1,13 @@
+.admin {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.admin .header .logo {
+    width: 202.81px;
+    height: 60px;
+}
+
+.admin .header-title {
+    font-weight: 500;
+    font-size: 22px;
+}

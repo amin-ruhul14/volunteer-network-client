@@ -1,0 +1,22 @@
+.even-tasks {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.even-tasks .header {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.even-tasks .header .logo {
+    width: 202.81px;
+    height: 60px;
+}
+
+.even-tasks .header .nav-link,
+.even-tasks .header .nav-link:hover {
+    color: #0B0B0B!important;
+}
+
+.even-tasks .user-name {
+    font-weight: bold;
+}

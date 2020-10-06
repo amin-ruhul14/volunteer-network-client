@@ -1,0 +1,30 @@
+.home {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home .hero-title {
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.home .input-group {
+    width: 470px;
+    margin: auto;
+    background: #FBFBFB;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+}
+
+.home .btn-search {
+    background: #3F90FC;
+    color: #FFF;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.home .btn-search:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}

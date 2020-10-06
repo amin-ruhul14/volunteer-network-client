@@ -1,0 +1,32 @@
+.header {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header .logo {
+    width: 202.81px;
+    height: 60px;
+}
+
+.header .nav-link,
+.header .nav-link:hover {
+    color: #0B0B0B!important;
+}
+
+.header .btn {
+    color: #FFF;
+    padding: 14px 0;
+    border-radius: 6px!important;
+}
+
+.header .btn:hover {
+    color: #FFF;
+}
+
+.header .btn-register {
+    background: #434141;
+}
+
+.header .btn-admin {
+    background: #3F90FC;
+}

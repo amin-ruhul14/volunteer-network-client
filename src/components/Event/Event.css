@@ -1,0 +1,14 @@
+.event .event-name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.event .event-date {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.event .btn-cancel {
+    background: #E3E3E3!important;
+    border: 1px solid rgba(0, 0, 0, 0.363)000;
+}
