@@ -7,23 +7,23 @@ import Volunteer from '../Volunteer/Volunteer.js';
 
 const Admin = () => {
     const [user, setUser] = useState([]);
-        useEffect(() =>{
-            fetch('http://localhost:5000/volunteers')
+    useEffect(() => {
+        fetch('https://safe-crag-34346.herokuapp.com/volunteers')
             .then(res => res.json())
             .then(data => setUser(data))
-        }, [])
+    }, [])
     return (
         <div className="admin">
             <div className="container">
                 <div className="header">
                     <nav class="navbar">
-                            <Link className="navbar-brand" to="/">
-                                <img className="logo" src={logo} alt="Logo"/>
-                            </Link>
-                            <div className="header-title mr-auto ml-5">
-                                <h3>Volunteer register list</h3>
-                            </div>
-                    </nav> 
+                        <Link className="navbar-brand" to="/">
+                            <img className="logo" src={logo} alt="Logo" />
+                        </Link>
+                        <div className="header-title mr-auto ml-5">
+                            <h3>Volunteer register list</h3>
+                        </div>
+                    </nav>
                 </div>
                 <div className="row mt-5 mb-4">
                     <div className="col-md-3">
@@ -40,9 +40,9 @@ const Admin = () => {
                     </div>
                 </div>
                 <div className="user">
-                   {
-                       user.map(eventVolunteer => <Volunteer eventVolunteer = {eventVolunteer}></Volunteer>)
-                   }
+                    {
+                        user.map(eventVolunteer => <Volunteer eventVolunteer={eventVolunteer}></Volunteer>)
+                    }
                 </div>
             </div>
         </div>
