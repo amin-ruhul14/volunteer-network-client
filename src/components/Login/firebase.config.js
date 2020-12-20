@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDY2n7RrzeMlzh17FXADgJ9kKylVtRqvR8",
-    authDomain: "volunteer-network-14.firebaseapp.com",
-    projectId: "volunteer-network-14",
-    storageBucket: "volunteer-network-14.appspot.com",
-    messagingSenderId: "248005126750",
-    appId: "1:248005126750:web:3e6130f2421ed7944262cf"
+    apiKey: "AIzaSyCwfJFoVcaKXEZ1SpR6eE9QDCqxn6tOTG4",
+    authDomain: "volunteer-network-14-c7f0e.firebaseapp.com",
+    projectId: "volunteer-network-14-c7f0e",
+    storageBucket: "volunteer-network-14-c7f0e.appspot.com",
+    messagingSenderId: "932200241132",
+    appId: "1:932200241132:web:e6e7ec6f7ae30cccd712c9"
 };
 export default firebaseConfig;
